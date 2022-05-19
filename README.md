@@ -28,6 +28,7 @@ Install the vim configs without needing to copy and paste.
 
 # Install/Update vim Without sudo:
 If needed, here's a note to installing vim without root access to the package manager.
+
 **Install:**
 ```sh
 cd ~
@@ -40,6 +41,7 @@ cd ~
 rm -rf vim
 ```
 **Configure:**
+
 After installation, add to .bashrc or .zshrc depending on what shell the system is using:
 ```sh
 export PATH=$PATH:$HOME/.local/vim/bin
