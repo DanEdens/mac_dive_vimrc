@@ -25,3 +25,23 @@ rm -rf vimrc ~/.git ~/README.md
 # Coming Soon
 **Installer:**
 Install the vim configs without needing to copy and paste.
+
+# Install/Update vim Without sudo:
+If needed, here's a note to installing vim without root access to the package manager.
+**Install:**
+```sh
+cd ~
+git clone https://github.com/vim/vim.git
+cd vim/src
+./configure --prefix=$HOME/.local/vim
+make
+make install
+cd ~
+rm -rf vim
+```
+**Configure:**
+After installation, add to .bashrc or .zshrc depending on what shell the system is using:
+```sh
+export PATH=$PATH:$HOME/.local/vim/bin
+alias vim="~/.local/vim/bin/vim"
+```
