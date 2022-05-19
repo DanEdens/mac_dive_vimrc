@@ -22,3 +22,6 @@ mv vimrc/.* ~
 rm -rf vimrc ~/.git ~/README.md
 ```
 
+# Coming Soon
+**Installer:**
+Install the vim configs without needing to copy and paste.
