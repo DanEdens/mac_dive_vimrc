@@ -1,7 +1,7 @@
 # vimrc
 
 My personal vim setup.
-Some of the keybinds only work on MacOS
+Some of the keybinds only work on MacOS but I'll update them when I have time.
 
 This is primarily for my own personal use when I'm active on a new machine but you are welcome to steal it.
 
