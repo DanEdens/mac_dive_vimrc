@@ -10,7 +10,7 @@ Must have Vim version 8 or more.
 # Installation
 **Preparation:**
 
-This makes room for the install and deletes previous vim configs, README.md files, and git inits so backup those files before running this command.
+This makes room for the install and deletes previous vim configs and git inits so backup those files before running this command.
 ```sh
 rm -rf ~/.git ~/.vim ~/.vimrc
 ```
