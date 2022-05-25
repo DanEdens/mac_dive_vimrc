@@ -17,7 +17,7 @@ rm -rf ~/.git ~/.vim ~/.vimrc
 
 **Install Settings:**
 ```sh
-git clone https://github.com/Pandoks/vimrc.git
+cd ~ && git clone https://github.com/Pandoks/vimrc.git
 mv vimrc/.* ~ && rm -rf vimrc ~/.git ~/README.md
 ```
 
