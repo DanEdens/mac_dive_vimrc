@@ -25,6 +25,9 @@ mv vimrc/.* ~ && rm -rf vimrc ~/.git
 **Installer:**
 Install the vim configs without needing to copy and paste.
 
+**COC.nvim**
+Install coc.nvim without needing sudo
+
 # Install/Update vim Without sudo:
 If needed, here's a note to installing vim without root access to the package manager.
 
